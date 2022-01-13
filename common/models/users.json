@@ -1,0 +1,42 @@
+{
+    "name": "users",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true,
+      "strictObjectIdCoercion": true
+    },
+    "properties": {
+      "firstName": {
+        "type": "string",
+        "required": true
+      },
+      "lastName": {
+        "type": "string"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "mobile": {
+        "type": "string",
+        "required": true
+      },
+      "email": {
+        "type": "string",
+        "required": true
+      },
+      "userName": {
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "type": "string",
+        "required": true
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

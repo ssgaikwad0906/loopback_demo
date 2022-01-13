@@ -1,0 +1,12 @@
+{
+  "mongod": {
+    "name": "mongod",
+    "connector": "mongodb",
+    "protocol": "mongodb+srv",
+    "database": "sample_airbnb",
+    "host":"cluster0.zd3zv.mongodb.net",
+    "username":"sanjivani",
+    "password":"PQR123",
+    "port":27017
+  }
+}
